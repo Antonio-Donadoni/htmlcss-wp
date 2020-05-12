@@ -14,14 +14,44 @@ main{
   padding: 1% 15%;
 }
 /* css header */
-header{
+
+.title-box {
   height: 200px;
-  margin-bottom: 10px;
+  position: relative;
   background-image: url("../img/forest.jpg");
   background-position: center;
-  border: 5px solid white;
+  border: 5px solid white;}
 
+.layover {
+      position: absolute;
+        height: 100%;
+        width: 100%;
+      background-color: rgba(0,0,0,0.5);
+  }
+
+.title {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
 }
+
+
+.title h1 {
+  text-align: center;
+}
+.title h3 {
+  font-weight: 300;
+}
+
+nav{
+  background-color: #504741;
+  height: 40px;
+  margin-bottom: 10px;
+}
+]
 
 /* css footer */
 footer{
