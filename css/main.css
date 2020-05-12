@@ -61,14 +61,15 @@ main{
     text-align: center;
     padding: 0 5px;
     /* debug */
-    border-left: inset 1px black;
-    border-right: inset 1px black;
+    /* border-left: inset 1px black; */
+    /* border-right: inset 1px black; */
   }
 
   nav a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+    font-weight: 500;
   }
 
  /* css main box */
@@ -78,9 +79,10 @@ main{
   clear: both;
 }
 
-.center, .side-l, .side-r section {
+.center, .side-l, .side-r section, footer {
   padding: 15px;
-  border-radius: 2%;
+  border-radius: 5px;
+  background-color: white;
 
 }
 aside {
@@ -95,26 +97,26 @@ aside {
 
 
   /* css left side */
-  .side-l{
-    /* debug */
-    height: 400px;
-    background-color: white;
-  }
 
   .side-l ul {
   list-style-type: none;
   }
 
-
+.side-l li {
+  padding: 5px 20px;
+}
   .side-l a {
     text-decoration: none;
     color: #669900;
+    font-weight: 500;
+  }
 
+  .fa-rss-square {
+    color: orange;
   }
 
   /* css right side */
   .side-r section {
-    background-color: white;
     margin-bottom: 20px;
   }
 
@@ -123,7 +125,6 @@ aside {
   float: left;
   width: 54%;
   margin: 0 3%;
-  background-color: white;
   }
 
 
@@ -132,6 +133,21 @@ footer
 {
   height: 200px;
   margin-top: 10px;
-  background-color: white;
-  border-radius: 3px;
+  color: #504741;
+}
+.credits {
+
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: solid 2px #504741;
+}
+.icon-box {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+.fab {
+  font-size: 250%;
+  padding: 0 50px;
 }
