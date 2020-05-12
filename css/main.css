@@ -1,0 +1,65 @@
+/* css generale */
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/wood.jpg");
+
+}
+main{
+  padding: 1% 15%;
+}
+/* css header */
+header{
+  height: 200px;
+  margin-bottom: 10px;
+  background-image: url("../img/forest.jpg");
+  background-position: center;
+  border: 5px solid white;
+
+}
+
+/* css footer */
+footer{
+  height: 200px;
+  margin-top: 10px;
+  /* debug */
+  background-color: white;
+}
+
+.main-box::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+.side-l{
+  /* debug */
+  height: 400px;
+  background-color: white;
+}
+
+.side-r section {
+  /* debug */
+  height: 280px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.center {
+float: left;
+width: 34%;
+margin: 0 3%;
+/* debug */
+background-color: white;
+height: 600px;
+}
