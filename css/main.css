@@ -41,7 +41,8 @@ main{
     text-align: center;
   }
   .title h3 {
-    font-weight: 300;
+    font-weight: 400;
+    color: rgba(255,255,255,0.8)
   }
   /* css navbar */
   nav{
@@ -60,11 +61,9 @@ main{
     display: inline-block;
     text-align: center;
     padding: 0 10px;
-    /* debug */
     border-left: inset 2px transparent;
     border-right: inset 2px transparent;
   }
-
 
   nav a {
     text-decoration: none;
@@ -79,7 +78,6 @@ main{
     border-left: 1px solid rgba(0, 0, 0, .4);
   }
 
-
  /* css main box */
 .main-box::after{
   content: "";
@@ -91,28 +89,29 @@ main{
   padding: 15px;
   border-radius: 5px;
   background-color: white;
+  box-shadow: 7px 7px 3px rgba(0, 0, 0, 0.4);
 
 }
 aside {
   float: left;
   width: 20%;
 }
+
 .main-box h2, .main-box h3 {
   padding-bottom: 20px;
   color: #504741;
   text-shadow: 2px 2px #E5E5E5;
 }
 
-
   /* css left side */
-
   .side-l ul {
   list-style-type: none;
   }
 
-.side-l li {
+  .side-l li {
   padding: 5px 20px;
-}
+  }
+
   .side-l a {
     text-decoration: none;
     color: #669900;
@@ -134,7 +133,6 @@ aside {
   width: 54%;
   margin: 0 3%;
   }
-
 
 /* css footer */
 footer
