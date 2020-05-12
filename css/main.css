@@ -60,8 +60,9 @@ main{
     display: inline-block;
     text-align: center;
     padding: 0 5px;
-    border-left: inset 2px black;
-    border-right: inset 2px black;
+    /* debug */
+    border-left: inset 1px black;
+    border-right: inset 1px black;
   }
 
   nav a {
@@ -70,26 +71,21 @@ main{
     text-transform: uppercase;
   }
 
-
-]
-
-/* css footer */
-footer{
-  height: 200px;
-  margin-top: 10px;
-  /* debug */
-  background-color: white;
-}
-
+ /* css main box */
 .main-box::after{
   content: "";
   display: table;
   clear: both;
 }
 
+.center, .side-l, .side-r section {
+  padding: 15px;
+  border-radius: 2%;
+
+}
 aside {
   float: left;
-  width: 30%;
+  width: 20%;
 }
 
 .side-l{
@@ -99,17 +95,23 @@ aside {
 }
 
 .side-r section {
-  /* debug */
-  height: 280px;
   background-color: white;
   margin-bottom: 20px;
 }
 
 .center {
 float: left;
-width: 34%;
+width: 54%;
 margin: 0 3%;
-/* debug */
 background-color: white;
-height: 600px;
+}
+
+
+/* css footer */
+footer
+{
+  height: 200px;
+  margin-top: 10px;
+  /* debug */
+  background-color: white;
 }
