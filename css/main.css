@@ -50,7 +50,7 @@ main{
     margin-bottom: 10px;
 
   }
-  ul {
+  nav ul {
     width: 100%;
     text-align: center;
     line-height: 40px;
@@ -87,24 +87,44 @@ aside {
   float: left;
   width: 20%;
 }
+.main-box h2, .main-box h3 {
+  padding-bottom: 20px;
+  color: #504741;
+  text-shadow: 2px 2px #E5E5E5;
+}
 
-.side-l{
-  /* debug */
-  height: 400px;
+
+  /* css left side */
+  .side-l{
+    /* debug */
+    height: 400px;
+    background-color: white;
+  }
+
+  .side-l ul {
+  list-style-type: none;
+  }
+
+
+  .side-l a {
+    text-decoration: none;
+    color: #669900;
+
+  }
+
+  /* css right side */
+  .side-r section {
+    background-color: white;
+    margin-bottom: 20px;
+  }
+
+  /* css center */
+  .center {
+  float: left;
+  width: 54%;
+  margin: 0 3%;
   background-color: white;
-}
-
-.side-r section {
-  background-color: white;
-  margin-bottom: 20px;
-}
-
-.center {
-float: left;
-width: 54%;
-margin: 0 3%;
-background-color: white;
-}
+  }
 
 
 /* css footer */
@@ -112,6 +132,6 @@ footer
 {
   height: 200px;
   margin-top: 10px;
-  /* debug */
   background-color: white;
+  border-radius: 3px;
 }
