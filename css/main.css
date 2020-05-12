@@ -8,49 +8,69 @@
 
 body {
   background-image: url("../img/wood.jpg");
-
+  font-family: 'Raleway', sans-serif;
 }
 main{
   padding: 1% 15%;
 }
 /* css header */
+    /* css title */
+  .title-box {
+    height: 200px;
+    position: relative;
+    background-image: url("../img/forest.jpg");
+    background-position: center;
+    border: 5px solid white;}
 
-.title-box {
-  height: 200px;
-  position: relative;
-  background-image: url("../img/forest.jpg");
-  background-position: center;
-  border: 5px solid white;}
+  .layover {
+        position: absolute;
+          height: 100%;
+          width: 100%;
+        background-color: rgba(0,0,0,0.5);
+    }
 
-.layover {
+  .title {
+      color: white;
+      font-size: 20px;
       position: absolute;
-        height: 100%;
-        width: 100%;
-      background-color: rgba(0,0,0,0.5);
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+  }
+  .title h1 {
+    text-align: center;
+  }
+  .title h3 {
+    font-weight: 300;
+  }
+  /* css navbar */
+  nav{
+    background-color: #504741;
+    height: 40px;
+    margin-bottom: 10px;
+
+  }
+  ul {
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    }
+
+  nav li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 5px;
+    border-left: inset 2px black;
+    border-right: inset 2px black;
   }
 
-.title {
+  nav a {
+    text-decoration: none;
     color: white;
-    font-size: 20px;
-    position: absolute;
-      top:50%;
-      left:50%;
-      transform: translate(-50%,-50%);
-}
+    text-transform: uppercase;
+  }
 
 
-.title h1 {
-  text-align: center;
-}
-.title h3 {
-  font-weight: 300;
-}
-
-nav{
-  background-color: #504741;
-  height: 40px;
-  margin-bottom: 10px;
-}
 ]
 
 /* css footer */
