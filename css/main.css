@@ -147,19 +147,27 @@ footer
   color: #504741;
 }
 .credits {
-
+ height: 25px;
   text-align: center;
   padding-bottom: 5px;
   border-bottom: solid 2px #504741;
 }
 .icon-box {
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
+  width: 100%;
   margin-top: 20px;
+}
+.icon-box::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.icon-column {
+  float: left;
+  width: calc(100%/3);
+  text-align: center;
+
 }
 .fab {
   font-size: 250%;
-  padding: 0 50px;
   color: #504741;
 }
