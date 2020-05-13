@@ -13,6 +13,7 @@ body {
 main{
   padding: 1% 15%;
 }
+
 /* css header */
     /* css title */
   .title-box {
@@ -27,7 +28,7 @@ main{
           height: 100%;
           width: 100%;
         background-color: rgba(0,0,0,0.5);
-    }
+  }
 
   .title {
       color: white;
@@ -37,13 +38,16 @@ main{
         left:50%;
         transform: translate(-50%,-50%);
   }
+
   .title h1 {
     text-align: center;
   }
+
   .title h3 {
     font-weight: 400;
     color: rgba(255,255,255,0.8)
   }
+
   /* css navbar */
   nav{
     background-color: #504741;
@@ -70,6 +74,7 @@ main{
     color: white;
     text-transform: uppercase;
     font-weight: 400;
+    display: inline-block;
   }
 
   nav li:hover {
